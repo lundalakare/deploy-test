@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Demo frontend for deploy-test",
   "author": "Lundaläkare",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/lundalakare/deploy-test#readme",
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/bulma": "^1.2.1",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
