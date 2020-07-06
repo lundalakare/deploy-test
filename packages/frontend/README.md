@@ -1,5 +1,7 @@
 # deploy-test-frontend
 
+<!-- Dummy change -->
+
 This is a demo frontend made using Nuxt.js. It was generated with `npx
 create-nuxt-app`.
 
