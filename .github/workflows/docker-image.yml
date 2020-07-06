@@ -1,0 +1,24 @@
+name: Docker Image CI
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build docker images using cache
+        uses: whoan/docker-build-with-cache-action@v5
+        with:
+          username: scriptcoded
+          password: "${{ secrets.DOCKER_HUB_PASSWORD }}"
+          context: frontend
+          image_name: lundalakare/deploy-test-frontend
+          push_git_tag: true
+          

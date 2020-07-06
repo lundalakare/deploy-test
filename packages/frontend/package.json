@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Demo frontend for deploy-test",
+  "author": "Lundaläkare",
+  "contributors": [
+    "Malcolm Nihlén <malcolm.nihlen@gmail.com>"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lundalakare/deploy-test.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lundalakare/deploy-test/issues"
+  },
+  "homepage": "https://github.com/lundalakare/deploy-test#readme",
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
